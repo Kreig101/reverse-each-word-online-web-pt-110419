@@ -5,5 +5,5 @@ def reverse_each_word (sentence)
   sentence.split.collect do |x|
     words << x.reverse
 end
-words.join("")
+words.join("   ")
 end
